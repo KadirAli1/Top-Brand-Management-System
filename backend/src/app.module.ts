@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { BrandsModule } from './modules/brands/brands.module';
 import { Brand } from './modules/brands/entity/brand.entity';
+import { CountryCodesModule } from './modules/country-codes/country-codes.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { Brand } from './modules/brands/entity/brand.entity';
       synchronize: true,
     }),
     BrandsModule,
+    CountryCodesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
