@@ -13,9 +13,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrandsCreateComponent } from './components/brands-create/brands-create.component';
+import { BrandsListComponent } from './components/brands-list/brands-list.component';
 
 @NgModule({
-  declarations: [AppComponent, BrandsCreateComponent],
+  declarations: [AppComponent, BrandsCreateComponent, BrandsListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
