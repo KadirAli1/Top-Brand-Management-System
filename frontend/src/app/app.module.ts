@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrandsCreateComponent } from './components/brands-create/brands-create.component';
 import { BrandsListComponent } from './components/brands-list/brands-list.component';
 import { BrandsEditComponent } from './components/brands-edit/brands-edit.component';
+import { RatingListPageComponent } from './components/rating-list-page/rating-list-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { BrandsEditComponent } from './components/brands-edit/brands-edit.compon
     BrandsCreateComponent,
     BrandsListComponent,
     BrandsEditComponent,
+    RatingListPageComponent,
   ],
   imports: [
     BrowserModule,
