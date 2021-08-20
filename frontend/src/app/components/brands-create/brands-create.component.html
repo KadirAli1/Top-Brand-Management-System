@@ -1,0 +1,20 @@
+<div style="width: 30%; text-align: end">
+  <form [formGroup]="form" (submit)="onSubmit()">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" placeholder="name" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Description</mat-label>
+      <input matInput formControlName="description" placeholder="description" />
+    </mat-form-field>
+    <button
+      mat-raised-button
+      type="submit"
+      [disabled]="this.form.invalid"
+      color="primary"
+    >
+      SAVE
+    </button>
+  </form>
+</div>
