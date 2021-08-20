@@ -14,9 +14,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrandsCreateComponent } from './components/brands-create/brands-create.component';
 import { BrandsListComponent } from './components/brands-list/brands-list.component';
+import { BrandsEditComponent } from './components/brands-edit/brands-edit.component';
 
 @NgModule({
-  declarations: [AppComponent, BrandsCreateComponent, BrandsListComponent],
+  declarations: [
+    AppComponent,
+    BrandsCreateComponent,
+    BrandsListComponent,
+    BrandsEditComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
